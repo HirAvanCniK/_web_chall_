@@ -1,0 +1,105 @@
+*{
+    transition: .5s;
+}
+
+body{
+    background-color: rgb(245, 245, 230);
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+body.init{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container{
+    text-align: center;
+    background-color: lightblue;
+    padding: 30px;
+    border-radius: 20px;
+    width: min-content;
+    box-shadow: 1px 1px 10px 2px rgb(200, 200, 255);
+}
+
+input{
+    transition: .5s;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+input:focus{
+    border-bottom: 1px solid white;
+}
+
+a.init{
+    color: rgb(255, 255, 255);
+}
+
+a.init:hover{
+    color: rgb(255, 255, 255, 0.5);
+}
+
+button{
+    width: 100%;
+    background-color: rgb(0, 0, 255, 0.4);
+    border-radius: 20px;
+}
+
+.error{
+    color: rgb(255, 0, 0, 0.5);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    align-items: center;
+}
+
+item{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(0, 0, 0, 0.5);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.post_table{
+    border-collapse: collapse;
+}
+
+.column_title{
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.table_data{
+    border: 1px solid black;
+}
+
+#Textarea{
+    width: 100%;
+    resize: none;
+}
